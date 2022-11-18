@@ -35,26 +35,24 @@ function App() {
   }
   function removeFromCart(e, item) {
     alert(" You clicked remove " + item.name + " , price is " + item.price);
-    //setCount(cart.append(name, price));
-    //if (cart.indexOf(currentCart) !== -1) return;
     e.preventDefault();
-    //if (cart.indexOf(currentCart) !== -1) return;
 
     setCart((cart) => {
       const existingIdx = cart.findIndex((i) => i.name === item.name);
-      if (cart[existingIdx].count === 0){
-        alert(" Already have 0 of " + item.name + ".");
-        return [...cart]
-      }
       
-      if (existingIdx !== -1){
+      if (existingIdx !== -1 && cart[existingIdx].count >1 ){ /*if item exists in cart*/ 
         return [
           ...cart.slice(0, existingIdx),
           { ...cart[existingIdx], count: cart[existingIdx].count - 1 },
           ...cart.slice(existingIdx + 1),
         ];
       }
-      return [...cart, { ...item, count: 1 }];
+      if (existingIdx !== -1 && cart[existingIdx].count >0 ){ /*if item exists in cart*/ 
+        return [
+          ...cart.slice(0, existingIdx), ...cart.slice(existingIdx + 1),
+        ];
+      } 
+      return [...cart];
     });
     console.log(cart);
   }
