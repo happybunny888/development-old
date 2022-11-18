@@ -2,6 +2,7 @@ import "./App.css";
 import { useState } from "react";
 import TicketData from "./assets/ticket-data.json";
 import TicketItem from "./components/TicketItem.js";
+import Aggregator from "./component/Aggregator.js";
 /* ####### DO NOT TOUCH -- this makes the image URLs work ####### */
 TicketData.forEach((item) => {
   item.image = process.env.PUBLIC_URL + "/" + item.image;
@@ -31,7 +32,7 @@ function App() {
       }
       return [...cart, { ...item, count: 1 }];
     });
-    console.log(cart);
+    //console.log(cart);
   }
   function removeFromCart(e, item) {
     alert(" You clicked remove " + item.name + " , price is " + item.price);
@@ -54,7 +55,7 @@ function App() {
       } 
       return [...cart];
     });
-    console.log(cart);
+    //console.log(cart);
   }
 
   return (
