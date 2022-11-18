@@ -60,44 +60,9 @@ function App() {
 
   return (
     <div className="App">
-      <div
-        style={{ display: "flex", flexDirection: "column", margin: "1.5rem", position: 'fixed' }}
-      >
-        <div className="window" style={{ width: 300, display: "inline-block" }}>
-          <div className="title-bar">
-            <div className="title-bar-text">Ticker's Tickets! | Cart</div>
-            <div className="title-bar-controls">
-              <button aria-label="Close" onClick={() => setCart([])}></button>
-            </div>
-          </div>
-          <ul className="window-body tree-view" style={{height: 240}}>
-            {cart.map((item, index) => (
-              <li>
-                <b>{item.name}</b> &#xd7;{item.count}
-                <span style={{ float: 'right' }}>
-                  Price: ${(item.price * item.count).toFixed(2)}
-                </span>
-              </li>
-            ))}
-          </ul>
-          <div className="status-bar">
-            <p className="status-bar-field">{cart.length === 0 ? `Your cart is empty!` : `${cart.length} item${cart.length === 1 ? '' : 's'}`}</p>
-            <p className="status-bar-field" style={{textAlign: 'right'}}>Total: <b>${cart
-            .reduce((subtotal, item) => subtotal + item.count * item.price, 0)
-            .toFixed(2)}</b></p>
-          </div>
-        </div>
-      </div>
 
-      <div className="bakery-items">
-        {TicketData.map(
-          (
-            item,
-            index // TODO: map bakeryData to BakeryItem components
-          ) => (
-            <TicketItem item={item} addToCart={addToCart} removeFromCart={removeFromCart}/>
-          )
-        )}
+      <div className="Aggregator">
+        <Aggregator></Aggregator>
       </div>
     </div>
   );
