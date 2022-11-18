@@ -62,7 +62,7 @@ function Aggregator() {
       <div
         style={{ display: "flex", flexDirection: "column", margin: "1.5rem", position: 'fixed' }}
       >
-        <div className="window" style={{ width: 300, display: "inline-block" }}>
+        <div className="window" style={{ width: 300, display: "inline-block"}}>
           <div className="title-bar">
             <div className="title-bar-text">Ticker's Tickets! | Cart</div>
             <div className="title-bar-controls">
@@ -88,7 +88,7 @@ function Aggregator() {
         </div>
       </div>
 
-      <div className="bakery-items">
+      <div className="ticket-items">
         {TicketData.map(
           (
             item,
