@@ -15,7 +15,7 @@ function App() {
   const [cart, setCart] = useState([]);
   //const [count, setCount] = useState([])
   function addToCart(e, item) {
-    alert(" You clicked add " + item.name + " and price is " + item.price);
+    alert(" You clicked add " + item.name + "  price is " + item.price);
     //setCount(cart.append(name, price));
     //if (cart.indexOf(currentCart) !== -1) return;
     e.preventDefault();
