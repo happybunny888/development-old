@@ -2,7 +2,7 @@ import "./App.css";
 import { useState } from "react";
 import TicketData from "./assets/ticket-data.json";
 import TicketItem from "./components/TicketItem.js";
-import Aggregator from "./component/Aggregator.js";
+import Aggregator from "./components/Aggregator.js";
 /* ####### DO NOT TOUCH -- this makes the image URLs work ####### */
 TicketData.forEach((item) => {
   item.image = process.env.PUBLIC_URL + "/" + item.image;
@@ -15,7 +15,7 @@ function App() {
   const [cart, setCart] = useState([]);
   //const [count, setCount] = useState([])
   function addToCart(e, item) {
-    alert(" You clicked add " + item.name + " , price is " + item.price);
+    alert(" You clicked add " + item.name + " and price is " + item.price);
     //setCount(cart.append(name, price));
     //if (cart.indexOf(currentCart) !== -1) return;
     e.preventDefault();
