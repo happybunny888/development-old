@@ -1,6 +1,7 @@
 
 import { useState } from "react";
 import TicketData from "../assets/ticket-data.json";
+import TicketItem from "../components/TicketItem.js";
 /* ####### DO NOT TOUCH -- this makes the image URLs work ####### */
 TicketData.forEach((item) => {
   item.image = process.env.PUBLIC_URL + "/" + item.image;
@@ -78,6 +79,16 @@ function Aggregator() {
             .toFixed(2)}</b></p>
           </div>
        
+      </div>
+      <div className="ticket-items">
+        {TicketData.map(
+          (
+            item,
+            index // TODO: map bakeryData to BakeryItem components
+          ) => (
+            <TicketItem item={item} addToCart={addToCart} removeFromCart={removeFromCart}/>
+          )
+        )}
       </div>
       
 
