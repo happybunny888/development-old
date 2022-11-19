@@ -1,6 +1,6 @@
 function TicketItem({ item, addToCart, removeFromCart}) {
     return (
-      <div className="window" style={{ width: 220, display: "inline-block" }}>
+      <div className="window">
         <div className="title-bar">
           <div className="title-bar-text">{item.name}</div>
         </div>

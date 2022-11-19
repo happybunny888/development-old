@@ -23,10 +23,27 @@
 .bakery-items .window-body > * {
   margin: 0;
 }
+.window {
+  background-color: cornflowerblue;
+  width: 220;
+  display: "inline-block";
+}
 .window-body {
   display: flex;
   flex-direction: column;
   height: 210px;
   justify-content: space-between;
   gap: 1em
+}
+
+.side-bar {
+  height: 300;
+}
+
+.Aggregator {
+  display: "flex";
+  flex-direction: "column";
+  margin: "1.5rem";
+  position: 'fixed';
+
 }
