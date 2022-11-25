@@ -1,36 +1,75 @@
 [
     {
       "name": "Spirited Away",
-      "description": "Four classic chocolate chip cookies",
-      "price": 7.99,
-      "type": "Studio Ghibli",
-      "rating": 97,
+      "description": "A ten-year-old girl moving to a new neighborhood, enters the world of Kami",
+      "price": 11.99,
+      "type": "Anime",
+      "rating": 95,
       "image": "images/anika.png"
     }, 
     {
         "name": "Howl's Moving Castle",
-        "description": "Four classic chocolate chip cookies",
-        "price": 7.99,
-        "type": "Studio Ghibli",
-        "rating": 97,
-        "image": "images/anika.png"    
+        "description": "A fictional kingdom against the backdrop of a war with another kingdom",
+        "price": 9.99,
+        "type": "Anime",
+        "rating": 92,
+        "image": "images/aubrey.png"    
     }, 
     {
-        "name": "Howl's Moving Castle",
-        "description": "Four classic chocolate chip cookies",
-        "price": 7.99,
-        "type": "Studio Ghibli",
+        "name": "Toy Story",
+        "description": "Taking place in a world where toys come to life when humans are not present",
+        "price": 13.99,
+        "type": "Anime",
         "rating": 97,
-        "image": "images/anika.png"    
+        "image": "images/connie.png"    
     },
     {
-        "name": "Howl's Moving Castle",
-        "description": "Four classic chocolate chip cookies",
+        "name": "Snow White",
+        "description": "Snow White and the cottage of the Seven Dwarfs",
         "price": 7.99,
-        "type": "Studio Ghibli",
-        "rating": 97,
-        "image": "images/anika.png"    
+        "type": "Anime",
+        "rating": 72,
+        "image": "dylan.png"    
+    },
+    {
+        "name": "Top Gun: Maverick",
+        "description": "Maverick returns to TOPGUN to train a group of elite graduates",
+        "price": 7.99,
+        "type": "Action",
+        "rating": 82,
+        "image": "isaac.png"    
+    },
+    {
+        "name": "Batman",
+        "description": "The Batman is two years into his role as Gotham’s embodiment of vengeance",
+        "price": 8.99,
+        "type": "Action",
+        "rating": 76,
+        "image": "jeff.png"    
+    },
+    {
+        "name": "Spider-man: No Way Home",
+        "description": "2021 American superhero film based on the Marvel Comics character Spider-Man",
+        "price": 9.99,
+        "type": "Action",
+        "rating": 78,
+        "image": "jenny.png"    
+    },
+    {
+        "name": "Love Story",
+        "description": "A boy and a girl from different backgrounds fall in love regardless of their upbringing",
+        "price": 6.99,
+        "type": "Romance",
+        "rating": 76,
+        "image": "jessie.png"  
+    },
+    {
+        "name": "Mona Lisa Smile",
+        "description": "An art history professor with a lot to teach about life and much to learn about romance",
+        "price": 8.49,
+        "type": "Romance",
+        "rating": 87,
+        "image": "kelly.png"  
     }
-    
-  ]
+]
   

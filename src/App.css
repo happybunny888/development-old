@@ -5,11 +5,12 @@
   display: flex;
 }
 
-.BakeryItem {
+.ticket-Item {
   border: 5px inset #ddd;
-  border-radius: 20px;
+  border-radius: 10px;
   padding: 0;
-  width: 150px;
+  width: 100px;
+  height: 100px;
   align-self: center;
 }
 
@@ -25,19 +26,53 @@
 }
 .window {
   background-color: cornflowerblue;
-  width: 220;
+  width: 320;
   display: "inline-block";
 }
 .window-body {
   display: flex;
   flex-direction: column;
-  height: 210px;
+  height: 310px;
   justify-content: space-between;
   gap: 1em
 }
 
-.side-bar {
+.aggregator-window {
+  background-color: rgb(166, 245, 159);
+  width: 300;
+  display: "inline-block"
+}
+
+.aggregator-window-body {
+  display:list-item ;   /*flex;*/
+  flex-direction: column;
+  height: 480px;
+  justify-content: space-between;
+  gap: 1em
+}
+.side-bar1 {
   height: 300;
+}
+
+.Side-bar {
+  display: flex;
+
+  flex-direction: column;
+
+  margin: 15px 35px 0 50px;
+  padding: 25px 20px 0 20px;
+
+  border: #d2d2d2 solid 2px;
+  border-radius: 10px;
+
+  box-shadow: 0 1px 1px #d2d2d2;
+
+  width:200px;
+
+}
+.Side-bar > SortGroup,
+.Side-bar > div {
+  margin-bottom: 15px;
 }
 
 .Aggregator {
@@ -46,4 +81,28 @@
   margin: "1.5rem";
   position: 'fixed';
 
+}
+.title-bar-text{
+  color:Blue;
+  font-family:verdan;
+  font-weight: 400;
+  font-size: large;
+}
+
+.ticket-Item-description{
+  color:black;
+  font-family:verdan;
+  font-style: italic;
+  margin-left: 5px;
+}
+
+.ticket-Item-rating{
+  color:darkviolet;
+  font-family:verdan;
+  margin-left: 5px;
+}
+.ticket-Item-type{
+  color:darkslateblue;
+  font-family:verdan;
+  margin-left: 5px;
 }
