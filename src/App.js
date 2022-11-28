@@ -55,7 +55,7 @@ function selectSortingValue(value){
 }
 
 function resetSorting(){
-  console.log("resetSortinge!")
+  console.log("resetSorting!")
   var x = document.getElementsByClassName("sorting_radio");
   for(var i=0; i<x.length; i++) {
      x[i].checked = false;
@@ -133,11 +133,10 @@ function App() {
 
   return (
     <div className="App">
-
+<h3>Ticker's Tickets</h3>
       <div className="Side-bar">
-
+      
         <div className="Row">
-          <h3>Ticket</h3>
         </div>
 
         <div>

@@ -56,18 +56,17 @@
 
 .Side-bar {
   display: flex;
-
   flex-direction: column;
 
   margin: 15px 35px 0 50px;
-  padding: 25px 20px 0 20px;
+  padding: 10px 20px 0 20px;
 
   border: #d2d2d2 solid 2px;
   border-radius: 10px;
 
   box-shadow: 0 1px 1px #d2d2d2;
 
-  width:200px;
+  width:450px;
 
 }
 .Side-bar > SortGroup,

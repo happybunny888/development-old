@@ -15,9 +15,9 @@ class Filter extends Component {
     render() {
   
       return (
-        <fieldset className="MuiFormControl-root">
+        <fieldset className="MuiFormControl-root" style={{width: '100px'}}>
             <legend className="MuiFormLabel-root">Types</legend>
-              <div className="MuiFormGroup-root">
+              <div className="MuiFormGroup-root" >
                 <label className="MuiFormControlLabel-root">
                     <span className="MuiButtonBase-root MuiIconButton-root jss1 MuiCheckbox-root MuiCheckbox-colorSecondary MuiIconButton-colorSecondary" aria-disabled="false">
                     <span className="MuiIconButton-label">
