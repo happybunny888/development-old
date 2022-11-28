@@ -1,11 +1,11 @@
 [
     {
       "name": "Spirited Away",
-      "description": "A ten-year-old girl moving to a new neighborhood, enters the world of Kami",
+      "description": "A ten-year-old girl moving to a new neighborhood, enters the world of Kami.",
       "price": 11.99,
       "type": "Anime",
       "rating": 95,
-      "image": "images/anika.png"
+      "image": "images/spirited_away.png"
     }, 
     {
         "name": "Howl's Moving Castle",
@@ -13,15 +13,23 @@
         "price": 9.99,
         "type": "Anime",
         "rating": 92,
-        "image": "images/aubrey.png"    
+        "image": "images/howls_castle.jpeg"    
     }, 
     {
-        "name": "Toy Story",
-        "description": "Taking place in a world where toys come to life when humans are not present",
-        "price": 13.99,
+        "name": "Cowboy Bebop: Movie",
+        "description": "The bounty hunter crew work to find a terrorist planning to destroy the human population on Mars.",
+        "price": 9.99,
         "type": "Anime",
-        "rating": 97,
-        "image": "images/connie.png"    
+        "rating": 88,
+        "image": "images/howls_castle.jpeg"    
+    }, 
+    {
+        "name": "Top Gun: Maverick",
+        "description": "Maverick returns to TOPGUN to train a group of elite graduates.",
+        "price": 7.99,
+        "type": "Action",
+        "rating": 82,
+        "image": "images/topgun_mav.jpeg"  
     },
     {
         "name": "Snow White",

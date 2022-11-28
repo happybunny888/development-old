@@ -14,11 +14,11 @@ function TicketItem({item, addToCart, removeFromCart}) {
           <div style={{ flex: 1 }} />
           <p
             style={{
-              textAlign: "right",
+              textAlign: "left",
               display: "flex",
               justifyContent: "space-between",
               alignItems: "center",
-              paddingLeft: '4px'
+              paddingLeft: '0px'
             }}
           >
             <b>${item.price}</b>
