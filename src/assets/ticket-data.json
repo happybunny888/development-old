@@ -18,10 +18,10 @@
     {
         "name": "Cowboy Bebop: Movie",
         "description": "The bounty hunter crew work to find a terrorist planning to destroy the human population on Mars.",
-        "price": 9.99,
+        "price": 7.99,
         "type": "Anime",
         "rating": 88,
-        "image": "images/howls_castle.jpeg"    
+        "image": "images/cowboy_bebop.jpeg"    
     }, 
     {
         "name": "Top Gun: Maverick",
@@ -32,12 +32,12 @@
         "image": "images/topgun_mav.jpeg"  
     },
     {
-        "name": "Snow White",
-        "description": "Snow White and the cottage of the Seven Dwarfs",
-        "price": 7.99,
-        "type": "Anime",
-        "rating": 72,
-        "image": "dylan.png"    
+        "name": "The Dark Night",
+        "description": "The Batman is two years into his role as Gotham's embodiment of vengeance.",
+        "price": 8.99,
+        "type": "Action",
+        "rating": 76,
+        "image": "jeff.png"   
     },
     {
         "name": "Top Gun: Maverick",
@@ -48,12 +48,12 @@
         "image": "isaac.png"    
     },
     {
-        "name": "Batman",
-        "description": "The Batman is two years into his role as Gotham’s embodiment of vengeance",
-        "price": 8.99,
+        "name": "Spider-man: No Way Home",
+        "description": "An American superhero film based on the Marvel Comics character Spider-Man",
+        "price": 9.99,
         "type": "Action",
-        "rating": 76,
-        "image": "jeff.png"    
+        "rating": 78,
+        "image": "jenny.png"       
     },
     {
         "name": "Spider-man: No Way Home",
