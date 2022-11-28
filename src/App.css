@@ -90,18 +90,25 @@ h3 {
   position: 'fixed';
 
 }
+.shopping-cart-text{
+  color:Black;
+  font-family:verdan;
+  font-weight: bold;
+  font-size: 1.8rem;
+}
 .title-bar-text{
   color:Blue;
   font-family:verdan;
   font-weight: 400;
   font-size: large;
+  font-weight: bold;
 }
 
 .ticket-Item-description{
   color:black;
   font-family:verdan;
   font-style: italic;
-  margin-left: 5px;
+  margin-left: 10px;
 }
 
 .ticket-Item-rating{

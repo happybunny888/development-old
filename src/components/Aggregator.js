@@ -58,7 +58,7 @@ function Aggregator() {
     <div className="Aggregator">
         <div className="aggregator-window" style={{ width: 300, display: "inline-block"}}>
           <div className="title-bar">
-            <div className="title-bar-text">Shopping Cart</div>
+            <div className="shopping-cart-text">Shopping Cart</div>
               <div className="title-bar-controls">
                 <button aria-label="Close" onClick={() => setCart([])}></button>
               </div>
