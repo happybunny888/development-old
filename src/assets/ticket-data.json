@@ -32,12 +32,20 @@
         "image": "images/topgun_mav.jpeg"  
     },
     {
+        "name": "Top Gun: Maverick",
+        "description": "Maverick returns to TOPGUN to train a group of elite graduates.",
+        "price": 7.99,
+        "type": "Action",
+        "rating": 82,
+        "image": "images/topgun_mav.jpeg"  
+    },
+    {
         "name": "The Dark Night",
         "description": "The Batman is two years into his role as Gotham's embodiment of vengeance.",
         "price": 8.99,
         "type": "Action",
         "rating": 76,
-        "image": "jeff.png"   
+        "image": "images/dark_night.jpeg"   
     },
     {
         "name": "Top Gun: Maverick",
