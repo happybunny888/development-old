@@ -50,10 +50,33 @@ function selectFilterType(value, checked){
 
 
 function selectSortingValue(value){
-  setSortOutside(value)
+  setSortOutside(value);
   console.log(sortingOutside);
 }
 
+function resetSorting(){
+  console.log("resetSortinge!")
+  var x = document.getElementsByClassName("sorting_radio");
+  for(var i=0; i<x.length; i++) {
+     x[i].checked = false;
+   }  
+   setSortOutside('');
+}
+
+function resetFilter(){
+  console.log("resetFilter!")
+
+  var x = document.getElementsByClassName("filter_checkbox");
+   for(var i=0; i<x.length; i++) {
+      x[i].checked = false;
+    }   
+    setTypeOutside([]);
+}
+
+function Reset() {
+  resetSorting();
+  resetFilter();
+}
 
 function App() {
   // TODO: use useState to create a state variable to hold the state of the cart
@@ -102,6 +125,8 @@ function App() {
   }
 
 
+
+
   const filteredData = TicketData.filter(matchesFilterType) 
   const sortingData = filteredData.sort(matchesSortingData)
 
@@ -125,6 +150,10 @@ function App() {
           <Filter/>
         </div>	
         <br/> 
+        
+        <div>
+          <button onClick={Reset}>Reset</button>
+        </div>
       </div>
        
 

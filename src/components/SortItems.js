@@ -2,13 +2,14 @@ import React, {Component} from 'react';
 
 import {selectSortingValue} from "./../App.js";
 
+
 class SortItems extends Component {
 
     handleChange = event => {
         //this.setState({value: event.target.value});
         //this.props.sortItems(event.target.value);
         selectSortingValue(event.target.value)
-        //console.log(this.state)
+        console.log("SortItems handleChange:"+event.target.value)
     }
 
   render() {
@@ -19,7 +20,7 @@ class SortItems extends Component {
             <label className="MuiFormControlLabel-root">
               <span className="MuiButtonBase-root MuiIconButton-root jss1 MuiRadio-root MuiRadio-colorSecondary MuiIconButton-colorSecondary" aria-disabled="false">
                 <span className="MuiIconButton-label">
-                  <input className="jss4" type="radio" value="Rating" name="sortGroup" onChange={(e) => this.handleChange(e)}/>
+                  <input className="sorting_radio" type="radio" value="Rating" name="sortGroup" onChange={(e) => this.handleChange(e)}/>
                 </span>
                 <span className="MuiTouchRipple-root"></span>
               </span>
@@ -29,7 +30,7 @@ class SortItems extends Component {
             <label className="MuiFormControlLabel-root">
               <span className="MuiButtonBase-root MuiIconButton-root jss1 MuiRadio-root MuiRadio-colorSecondary MuiIconButton-colorSecondary" aria-disabled="false">
                 <span className="MuiIconButton-label">
-                  <input className="jss4" type="radio" value="Price"  name="sortGroup" onChange={(e) => this.handleChange(e)}/>
+                  <input className="sorting_radio" type="radio" value="Price"  name="sortGroup" onChange={(e) => this.handleChange(e)}/>
                 </span>
                 <span className="MuiTouchRipple-root"></span>
               </span>

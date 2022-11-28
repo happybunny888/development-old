@@ -2,12 +2,14 @@ import React, {Component} from 'react';
 
 import {selectFilterType} from "./../App.js";
 
+
 class Filter extends Component {
 
   
     handleChange = (e, value) => {
       //this.props.filterItems(value, this.props.title);
       selectFilterType(value, e.target.checked);
+      console.log("Filter handleChange:"+value+","+e.target.checked)
     }
   
     render() {
@@ -19,7 +21,7 @@ class Filter extends Component {
                 <label className="MuiFormControlLabel-root">
                     <span className="MuiButtonBase-root MuiIconButton-root jss1 MuiCheckbox-root MuiCheckbox-colorSecondary MuiIconButton-colorSecondary" aria-disabled="false">
                     <span className="MuiIconButton-label">
-                        <input className="jss4" type="checkbox" data-indeterminate="false" value="Anime" onChange={(e) => this.handleChange(e, 'Anime', e.target.checked)}/>
+                        <input className="filter_checkbox" type="checkbox" data-indeterminate="false" value="Anime" onChange={(e) => this.handleChange(e, 'Anime', e.target.checked)}/>
                     </span>
                     <span className="MuiTouchRipple-root"></span>
                     </span>
@@ -29,7 +31,7 @@ class Filter extends Component {
                 <label className="MuiFormControlLabel-root">
                     <span className="MuiButtonBase-root MuiIconButton-root jss1 MuiCheckbox-root MuiCheckbox-colorSecondary MuiIconButton-colorSecondary" aria-disabled="false">
                         <span className="MuiIconButton-label">
-                            <input className="jss4" type="checkbox" data-indeterminate="false" value="Action" onChange={(e) => this.handleChange(e, 'Action')}/>
+                            <input className="filter_checkbox" type="checkbox" data-indeterminate="false" value="Action" onChange={(e) => this.handleChange(e, 'Action')}/>
                         </span>
                         <span className="MuiTouchRipple-root"></span>
                     </span>
@@ -39,7 +41,7 @@ class Filter extends Component {
                 <label className="MuiFormControlLabel-root">
                     <span className="MuiButtonBase-root MuiIconButton-root jss1 MuiCheckbox-root MuiCheckbox-colorSecondary MuiIconButton-colorSecondary" aria-disabled="false">
                         <span className="MuiIconButton-label">
-                            <input className="jss4" type="checkbox" data-indeterminate="false" value="Romance" onChange={(e) => this.handleChange(e, 'Romance')}/>
+                            <input className="filter_checkbox" type="checkbox" data-indeterminate="false" value="Romance" onChange={(e) => this.handleChange(e, 'Romance')}/>
                         </span>
                         <span className="MuiTouchRipple-root"></span>
                     </span>
