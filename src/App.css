@@ -1,7 +1,7 @@
 /* Add styling for your page here */
 
 .App {
-  background:linear-gradient(rgb(78, 6, 120), pink);
+  background:linear-gradient(rgb(78, 6, 120), rgb(78, 6, 120));
   display: flex;
 }
 h3 {
