@@ -133,9 +133,8 @@ function App() {
 
   return (
     <div className="App">
-<h3>Ticker's Tickets</h3>
       <div className="Side-bar">
-      
+      <h3>Ticker's Tickets</h3>
         <div className="Row">
         </div>
 

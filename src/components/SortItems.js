@@ -15,7 +15,7 @@ class SortItems extends Component {
   render() {
     return (
         <fieldset className="MuiFormControl-root">
-          <legend className="MuiFormLabel-root">Sort By</legend>
+          <legend className="MuiFormLabel-root" style={{color: 'white', fontWeight:'bold'}} >Sort By</legend>
           <div className="MuiFormGroup-root" role="radiogroup">
             <label className="MuiFormControlLabel-root">
               <span className="MuiButtonBase-root MuiIconButton-root jss1 MuiRadio-root MuiRadio-colorSecondary MuiIconButton-colorSecondary" aria-disabled="false">
@@ -24,7 +24,7 @@ class SortItems extends Component {
                 </span>
                 <span className="MuiTouchRipple-root"></span>
               </span>
-              <span className="MuiTypography-root MuiFormControlLabel-label MuiTypography-body1">Rating</span>
+              <span className="MuiTypography-root MuiFormControlLabel-label MuiTypography-body1" style={{color: 'white'}}>Rating</span>
             </label>
             <br></br>
             <label className="MuiFormControlLabel-root">
@@ -34,7 +34,7 @@ class SortItems extends Component {
                 </span>
                 <span className="MuiTouchRipple-root"></span>
               </span>
-              <span className="MuiTypography-root MuiFormControlLabel-label MuiTypography-body1">Price</span>
+              <span className="MuiTypography-root MuiFormControlLabel-label MuiTypography-body1" style={{color: 'white'}}>Price</span>
             </label>                
           </div>
         </fieldset>

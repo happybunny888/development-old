@@ -16,16 +16,16 @@ class Filter extends Component {
   
       return (
         <fieldset className="MuiFormControl-root" style={{width: '100px'}}>
-            <legend className="MuiFormLabel-root">Types</legend>
+            <legend className="MuiFormLabel-root" style={{color: 'white',fontWeight: 'bold'}}>Types</legend>
               <div className="MuiFormGroup-root" >
                 <label className="MuiFormControlLabel-root">
                     <span className="MuiButtonBase-root MuiIconButton-root jss1 MuiCheckbox-root MuiCheckbox-colorSecondary MuiIconButton-colorSecondary" aria-disabled="false">
                     <span className="MuiIconButton-label">
-                        <input className="filter_checkbox" type="checkbox" data-indeterminate="false" value="Anime" onChange={(e) => this.handleChange(e, 'Anime', e.target.checked)}/>
+                        <input className="filter_checkbox" type="checkbox" data-indeterminate="false" value="Anime" onChange={(e) => this.handleChange(e, 'Anime', e.target.checked)} />
                     </span>
                     <span className="MuiTouchRipple-root"></span>
                     </span>
-                    <span className="MuiTypography-root MuiFormControlLabel-label MuiTypography-body1">Anime</span>
+                    <span className="MuiTypography-root MuiFormControlLabel-label MuiTypography-body1" style={{color: 'white'}}>Anime</span>
                 </label>
                 <br></br>
                 <label className="MuiFormControlLabel-root">
@@ -35,7 +35,7 @@ class Filter extends Component {
                         </span>
                         <span className="MuiTouchRipple-root"></span>
                     </span>
-                    <span className="MuiTypography-root MuiFormControlLabel-label MuiTypography-body1">Action</span>
+                    <span className="MuiTypography-root MuiFormControlLabel-label MuiTypography-body1" style={{color: 'white'}}>Action</span>
                 </label>
                 <br></br>
                 <label className="MuiFormControlLabel-root">
@@ -45,7 +45,7 @@ class Filter extends Component {
                         </span>
                         <span className="MuiTouchRipple-root"></span>
                     </span>
-                    <span className="MuiTypography-root MuiFormControlLabel-label MuiTypography-body1">Romance</span>
+                    <span className="MuiTypography-root MuiFormControlLabel-label MuiTypography-body1" style={{color: 'white'}}>Romance</span>
                 </label>
               </div>
             </fieldset> 
