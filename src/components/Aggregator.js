@@ -60,7 +60,7 @@ function Aggregator() {
           <div className="title-bar">
             <div className="shopping-cart-text">Shopping Cart</div>
               <div className="title-bar-controls">
-                <button aria-label="Close" onClick={() => setCart([])}></button>
+                <button aria-label="Close" onClick={() => setCart([])}> Clear Cart</button>
               </div>
             </div>
             <ul className="aggregator-window-body tree-view">
