@@ -53,11 +53,11 @@
         "price": 9.99,
         "type": "Action",
         "rating": 78,
-        "image": "jenny.png"    
+        "image": "images/spider_man.jpeg"    
     },
     {
-        "name": "Spider-man: No Way Home",
-        "description": "An American superhero film based on the Marvel Comics character Spider-Man",
+        "name": "Mission: Impossible - Fallout",
+        "description": "Ethan Hunt and his team seek to prevent nuclear weapon technology from reaching the Apostles.",
         "price": 9.99,
         "type": "Action",
         "rating": 78,
