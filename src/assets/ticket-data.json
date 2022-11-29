@@ -25,19 +25,19 @@
     }, 
     {
         "name": "Top Gun: Maverick",
-        "description": "Maverick returns to TOPGUN to train a group of elite graduates.",
+        "description": "In the sequel of Top Gun, Maverick returns to TOP GUN to train a group of elite graduates.",
         "price": 7.99,
         "type": "Action",
         "rating": 82,
         "image": "images/topgun_mav.jpeg"  
     },
     {
-        "name": "Top Gun: Maverick",
-        "description": "Maverick returns to TOPGUN to train a group of elite graduates.",
+        "name": "Casino Royale (2006)",
+        "description": "Bond is working to bankrupt the Le Chiffre in a high-stakes poker game at the Casino Royale.",
         "price": 7.99,
         "type": "Action",
         "rating": 82,
-        "image": "images/topgun_mav.jpeg"  
+        "image": "images/casino_royale.jpeg"  
     },
     {
         "name": "The Dark Night",
@@ -48,12 +48,12 @@
         "image": "images/dark_night.jpeg"   
     },
     {
-        "name": "Top Gun: Maverick",
-        "description": "Maverick returns to TOPGUN to train a group of elite graduates",
-        "price": 7.99,
+        "name": "Spider-man: No Way Home",
+        "description": "An American superhero film based on the Marvel Comics character Spider-Man",
+        "price": 9.99,
         "type": "Action",
-        "rating": 82,
-        "image": "isaac.png"    
+        "rating": 78,
+        "image": "jenny.png"    
     },
     {
         "name": "Spider-man: No Way Home",
