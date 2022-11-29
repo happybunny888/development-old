@@ -2,7 +2,7 @@
     {
       "name": "Spirited Away",
       "description": "A ten-year-old girl moving to a new neighborhood, enters the world of Kami.",
-      "price": 11.99,
+      "price": 9.99,
       "type": "Anime",
       "rating": 95,
       "image": "images/spirited_away.png"
@@ -18,41 +18,41 @@
     {
         "name": "Cowboy Bebop: Movie",
         "description": "The bounty hunter crew work to find a terrorist planning to destroy the human population on Mars.",
-        "price": 7.99,
+        "price": 6.99,
         "type": "Anime",
-        "rating": 88,
+        "rating": 66,
         "image": "images/cowboy_bebop.jpeg"    
     }, 
     {
         "name": "Top Gun: Maverick",
         "description": "In the sequel of Top Gun, Maverick returns to TOP GUN to train a group of elite graduates.",
-        "price": 7.99,
+        "price":11.99,
         "type": "Action",
-        "rating": 82,
+        "rating": 96,
         "image": "images/topgun_mav.jpeg"  
     },
     {
         "name": "Casino Royale (2006)",
         "description": "Bond is working to bankrupt the Le Chiffre in a high-stakes poker game at the Casino Royale.",
-        "price": 7.99,
+        "price": 8.99,
         "type": "Action",
-        "rating": 82,
+        "rating": 94,
         "image": "images/casino_royale.jpeg"  
     },
     {
         "name": "The Dark Night",
         "description": "The Batman is two years into his role as Gotham's embodiment of vengeance.",
-        "price": 8.99,
+        "price": 9.99,
         "type": "Action",
-        "rating": 76,
+        "rating": 91,
         "image": "images/dark_night.jpeg"   
     },
     {
         "name": "Spider-man: No Way Home",
-        "description": "An American superhero film based on the Marvel Comics character Spider-Man",
-        "price": 9.99,
+        "description": "Peter turns to Doctor Strange to make the world forget that he is Spider-Man. ",
+        "price": 10.99,
         "type": "Action",
-        "rating": 78,
+        "rating": 93,
         "image": "images/spider_man.jpeg"    
     },
     {
@@ -60,32 +60,40 @@
         "description": "Ethan Hunt and his team seek to prevent nuclear weapon technology from reaching the Apostles.",
         "price": 9.99,
         "type": "Action",
-        "rating": 78,
-        "image": "jenny.png"       
+        "rating": 97,
+        "image": "images/fallout.jpeg"       
     },
     {
-        "name": "Spider-man: No Way Home",
-        "description": "2021 American superhero film based on the Marvel Comics character Spider-Man",
-        "price": 9.99,
-        "type": "Action",
-        "rating": 78,
-        "image": "jenny.png"    
-    },
-    {
-        "name": "Love Story",
-        "description": "A boy and a girl from different backgrounds fall in love regardless of their upbringing",
-        "price": 6.99,
-        "type": "Romance",
-        "rating": 76,
-        "image": "jessie.png"  
-    },
-    {
-        "name": "Mona Lisa Smile",
-        "description": "An art history professor with a lot to teach about life and much to learn about romance",
-        "price": 8.49,
+        "name": "Pride & Prejudice (2005)",
+        "description": "The film features five sisters who deal with issues of marriage, morality and misconceptions.",
+        "price": 5.99,
         "type": "Romance",
         "rating": 87,
-        "image": "kelly.png"  
+        "image": "images/pride_prejudice.jpeg"    
+    },
+    {
+        "name": "Titanic",
+        "description": "A seventeen-year-old aristocrat falls in love with a kind but poor artist aboard the Titanic.",
+        "price": 6.99,
+        "type": "Romance",
+        "rating": 87,
+        "image": "images/titanic.jpeg"  
+    },
+    {
+        "name": "Crazy Rich Asians",
+        "description": "A Chinese-American professor who discovers her boyfriend's family are among the richest in Singapore.",
+        "price": 8.49,
+        "type": "Romance",
+        "rating": 91,
+        "image": "images/crazy_rich_asians.png"  
+    },
+    {
+        "name": "The Notebook",
+        "description": "A poor  man falls in love with a rich woman, but they are soon separated because of their social differences.",
+        "price": 5.49,
+        "type": "Romance",
+        "rating": 53,
+        "image": "images/notebook.jpeg"  
     }
 ]
   
